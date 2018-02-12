@@ -1,0 +1,12 @@
+// The root file could be named after the project. In this case we just call it
+// acme. This is just a naming convention, not the coding law. Read more
+// about file structure here: https://mlarcher.github.io/docssa/#fileStructure
+
+@charset 'UTF-8';
+
+// Third-party libraries and packages.
+@import 'node_modules/sanitize.css/sanitize';
+
+// Project specific styles.
+@import 'project/_project';
+@import 'components/_components';
