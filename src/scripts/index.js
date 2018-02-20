@@ -1,4 +1,5 @@
-import search from './search.js';
+import App from './App.js';
+
 /*
  * This file is part of Giphy.
  *
@@ -9,7 +10,6 @@ import search from './search.js';
  */
 
 let LOADED = false;
-search();
 /**
  * Bootstrap the application on load.
  *
@@ -22,6 +22,9 @@ function bootstrap () {
   }
 
   LOADED = true;
+
+
+  window.app = new App();
 
   console.log('The Giphy application has been loaded.');
 

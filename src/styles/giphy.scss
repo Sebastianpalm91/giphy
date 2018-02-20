@@ -1,5 +1,7 @@
 @import 'node_modules/sanitize.css/sanitize';
+@import 'src/styles/components/__components.scss';
 $primary-color: #814EEC;
+
 
 * {
   font-family: 'Raleway', sans-serif;
@@ -60,9 +62,8 @@ input, button {
   margin: auto;
   max-width: 80%;
   .gifImage {
-    height: 300px;
-    width: 350px;
-    margin: 20px;
+    height: 200px;
+    width: 20px;
   }
 }
 
@@ -75,5 +76,6 @@ input, button {
   }
   a {
     color: $primary-color;
+    margin: 20px;
   }
 }
